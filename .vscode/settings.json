@@ -1,0 +1,19 @@
+{
+  // Désactive l’inline AI de Claude
+  "claude.autocomplete.enable": false,
+  "claude.inlineSuggest.enable": false,
+
+  // Désactive Copilot dans ce workspace
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.inlineSuggest.enable": false,
+
+  // Options VS Code par défaut pour garder les suggestions normales
+  "editor.suggest.showInlineDetails": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  }
+}
